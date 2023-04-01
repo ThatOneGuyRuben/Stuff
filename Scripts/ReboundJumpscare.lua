@@ -65,9 +65,9 @@ local TWFrameTransparencyEnd = TW:Create(Frame, TWInfoTransparency, {BackgroundT
 task.spawn(function()
 	while JumpscareDaRebound do
 		Frame.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		wait(0.1)
+		wait(0.05)
 		Frame.BackgroundColor3 = Color3.fromRGB(10,0,100)
-		wait(0.1)
+		wait(0.05)
 	end
 end)
 
