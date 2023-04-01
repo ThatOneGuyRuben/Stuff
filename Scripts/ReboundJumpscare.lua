@@ -47,8 +47,8 @@ face.Name = "face"
 face.Parent = Frame
 face.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 face.BackgroundTransparency = 1.000
-face.Position = UDim2.new(0.449999988, 0, 0.449999988, 0)
-face.Size = UDim2.new(0.100000001, 0, 0.100000001, 0)
+face.Position = UDim2.new(0.45, 0, 0.45, 0)
+face.Size = UDim2.new(0.1, 0, 0.1, 0)
 face.Image = "rbxassetid://11228075605"
 
 --Setup
