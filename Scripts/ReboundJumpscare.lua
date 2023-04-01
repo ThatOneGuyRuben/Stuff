@@ -18,7 +18,8 @@ Frame.Parent = JumpscareDaRebound
 Frame.Active = true
 Frame.BackgroundColor3 = Color3.fromRGB(10, 0, 100)
 Frame.BackgroundTransparency = 1.000
-Frame.Size = UDim2.new(1, 0, 1, 0)
+Frame.Size = UDim2.new(2, 0, 2, 0)
+Frame.Position = UDim2.new(-1, 0, -1, 0)
 Frame.Visible = true
 
 ReboundJumpscare.Name = "ReboundJumpscare"
@@ -54,7 +55,7 @@ face.Image = "rbxassetid://11228075605"
 --Setup
 
 local TW = game:GetService("TweenService")
-local TWInfoJumpscare = TweenInfo.new(0.5, Enum.EasingStyle.Sine, Enum.EasingDirection.In)
+local TWInfoJumpscare = TweenInfo.new(0.5, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out)
 local TWInfoTransparency = TweenInfo.new(0.05)
 
 local TWImagePos = TW:Create(face, TWInfoJumpscare, {Position = face.Parent.pos.Position})
