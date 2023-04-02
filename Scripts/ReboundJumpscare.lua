@@ -54,8 +54,8 @@ face.Image = "rbxassetid://11228075605"
 --Setup
 
 local TW = game:GetService("TweenService")
-local TWInfoJumpscare = TweenInfo.new(0.6, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out)
-local TWInfoTransparency = TweenInfo.new(0.05)
+local TWInfoJumpscare = TweenInfo.new(0.5, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out)
+local TWInfoTransparency = TweenInfo.new(0.1)
 
 local TWImagePos = TW:Create(face, TWInfoJumpscare, {Position = face.Parent.pos.Position})
 local TWImageSize = TW:Create(face, TWInfoJumpscare, {Size = face.Parent.pos.Size})
@@ -65,9 +65,9 @@ local TWFrameTransparencyEnd = TW:Create(Frame, TWInfoTransparency, {BackgroundT
 task.spawn(function()
 	while JumpscareDaRebound do
 		Frame.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		wait(0.05)
+		wait(0.1)
 		Frame.BackgroundColor3 = Color3.fromRGB(10,0,100)
-		wait(0.05)
+		wait(0.1)
 	end
 end)
 
