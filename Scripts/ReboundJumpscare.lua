@@ -23,7 +23,7 @@ Frame.Visible = true
 
 ReboundJumpscare.Name = "ReboundJumpscare"
 ReboundJumpscare.Parent = JumpscareDaRebound
-ReboundJumpscare.SoundId = "rbxassetid://5567523008"
+ReboundJumpscare.SoundId = "rbxassetid://10914800940"
 ReboundJumpscare.PlaybackSpeed = 3.000
 
 DistortionSoundEffect.Name = "DistortionSoundEffect"
