@@ -54,7 +54,7 @@ face.Image = "rbxassetid://11228075605"
 --Setup
 
 local TW = game:GetService("TweenService")
-local TWInfoJumpscare = TweenInfo.new(0.5, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out)
+local TWInfoJumpscare = TweenInfo.new(0.6)
 local TWInfoTransparency = TweenInfo.new(0.1)
 
 local TWImagePos = TW:Create(face, TWInfoJumpscare, {Position = face.Parent.pos.Position})
