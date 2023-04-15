@@ -25,6 +25,7 @@ ReboundJumpscare.Name = "ReboundJumpscare"
 ReboundJumpscare.Parent = JumpscareDaRebound
 ReboundJumpscare.SoundId = "rbxassetid://10914800940"
 ReboundJumpscare.PlaybackSpeed = 3.000
+ReboundJumpscare.Playing = true
 
 DistortionSoundEffect.Name = "DistortionSoundEffect"
 DistortionSoundEffect.Parent = ReboundJumpscare
@@ -54,7 +55,7 @@ face.Image = "rbxassetid://11228075605"
 --Setup
 
 local TW = game:GetService("TweenService")
-local TWInfoJumpscare = TweenInfo.new(0.6)
+local TWInfoJumpscare = TweenInfo.new(0.5)
 local TWInfoTransparency = TweenInfo.new(0.1)
 
 local TWImagePos = TW:Create(face, TWInfoJumpscare, {Position = face.Parent.pos.Position})
